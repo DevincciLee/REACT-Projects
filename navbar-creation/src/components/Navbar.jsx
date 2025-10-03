@@ -18,9 +18,9 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='bg-black flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
+    <div className='bg-[#000300] flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
       {/* Logo */}
-      <h1 className='w-full text-3xl font-bold text-[#00F2DE]'>VinnyDevs</h1>
+      <h1 className='w-full text-3xl font-bold text-[#00F2DE]'><a href='https://github.com/DevincciLee'>VinnyDevs</a></h1>
 
       {/* Desktop Navigation */}
       <ul className='hidden md:flex'>
